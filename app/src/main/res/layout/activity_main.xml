@@ -26,6 +26,6 @@
         app:layout_constraintEnd_toEndOf="@+id/helloWorld"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="@+id/helloWorld"
-        tools:layout_editor_absoluteY="112dp" />
+        tools:layout_editor_absoluteY="135dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
