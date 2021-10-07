@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".fragment.InputFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_select_choice"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <RadioGroup
+        android:id="@+id/rgChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+
+        <RadioButton
+            android:id="@+id/rbPaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:text="@string/lbl_paper"
+            android:textSize="14dp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rbRock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:text="@string/lbl_rock"
+            android:textSize="14dp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rbScissors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:text="@string/lbl_scissors"
+            android:textSize="14dp">
+
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_play"
+        android:textSize="12dp"></Button>
+
+</LinearLayout>

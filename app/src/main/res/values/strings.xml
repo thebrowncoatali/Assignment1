@@ -1,5 +1,25 @@
 <resources>
-    <string name="app_name">Assignment1</string>
-    <string name="click_me">Click Me</string>
-    <string name="hello_world">Hello World!</string>
+    <string name="app_name">Assignment 1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="lbl_select_choice">Select Your Choice</string>
+
+    <string name="lbl_paper">Paper</string>
+    <string name="lbl_rock">Rock</string>
+    <string name="lbl_scissors">Scissors</string>
+
+    <string name="lbl_play">Play</string>
+    <string name="msg_select_your_choice">Please select your input</string>
+
+    <string name="lbl_user_choice">The user choice</string>
+    <string name="lbl_cpu_choice">The computer choice</string>
+    <string name="lbl_winner">The winner</string>
+
+    <string name="lbl_replay">Replay</string>
+    <string name="lbl_play_again">Play Again</string>
+    <string name="lbl_user">User</string>
+    <string name="lbl_computer">Computer</string>
+    <string name="lbl_draw">Draw</string>
+
 </resources>
